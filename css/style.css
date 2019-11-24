@@ -1,0 +1,30 @@
+body {
+  background: -webkit-gradient(linear, left top, right top, from(#90AAFF), to(#ff0040));
+  background: linear-gradient(to right, #90AAFF, #ff0040);
+}
+
+.calculator {
+  width: 17%;
+  margin: 200px auto;
+}
+
+.header-area .overview {
+  width: 300px;
+  height: 70px;
+}
+
+table tr td button {
+  background: red;
+  border: 1px solid black;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+button {
+  width: 50px;
+  height: 50px;
+  background: grey;
+  margin: 5px 10px 2px 0;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

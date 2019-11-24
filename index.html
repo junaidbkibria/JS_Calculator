@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>JS Calculation</title>
+  </head>
+  <body>
+    <div class="calculator">
+    <header class="header-area">
+        <form>
+            <input class="overview" value="">
+        </form>
+    </header>
+    <section class="table-area">
+        <table>
+            <tr>
+              <td><button type="button" onclick="insert(7)">7</button></td>
+              <td><button type="button" onclick="insert(8)">8</button></td>
+              <td><button type="button" onclick="insert(9)">9</button></td>
+              <td><button type="button" onclick="clear()">DEL</button></td>
+              <td><button type="button" onclick="clearAll()">AC</button></td>
+            </tr>
+            <tr>
+              <td><button type="button" onclick="insert(4)">4</button></td>
+              <td><button type="button" onclick="insert(5)">5</button></td>
+              <td><button type="button" onclick="insert(6)">6</button></td>
+              <td><button type="button"onclick="insert('*')">X</button></td>
+              <td><button type="button" onclick="insert('/')">/</button></td>
+            </tr>
+            <tr>
+              <td><button type="button" onclick="insert(1)">1</button></td>
+              <td><button type="button" onclick="insert(2)">2</button></td>
+              <td><button type="button" onclick="insert(3)">3</button></td>
+              <td><button type="button" onclick="insert('+')">+</button></td>
+              <td><button type="button" onclick="insert('-')">-</button></td>
+            </tr>
+            <tr>
+              <td><button type="button" onclick="insert(0)">0</button></td>
+              <td><button type="button" onclick="insert('.')">.</button></td>
+              <td><button type="button" onclick="insert('(')">(</button></td>
+              <td><button type="button" onclick="insert(')')">)</button></td>
+              <td><button type="button" onclick="equal()">=</button></td>
+            </tr>
+          </table>
+    </section>
+  </div>
+  
+    
+
+
+
+
+
+   
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+   <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/paper-full.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

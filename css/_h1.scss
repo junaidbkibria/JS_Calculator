@@ -1,0 +1,13 @@
+$bgc: coral;
+h1{
+    background: $bgc;
+    font-size: 50px;
+    display: flex;
+    button{
+        color: $bgc;
+        background: red;
+        &:hover{
+            background: blueviolet;
+        }
+    }
+}
